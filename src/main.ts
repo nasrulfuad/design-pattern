@@ -5,6 +5,7 @@ import { bootstrapPrototype } from "./1.creational/4.prototype/good.prototype";
 import { bootstrapSingleton } from "./1.creational/5.singleton/good.singleton";
 import { bootstrapAdapter } from "./2.structural/1.adapter/good.adapter";
 import { bootstrapBridge } from "./2.structural/3.bridge/good.bridge";
+import { bootstrapComposite } from "./2.structural/4.composite/good.composite";
 
 /** Creational */
 // bootstrapFactory();
@@ -15,4 +16,5 @@ import { bootstrapBridge } from "./2.structural/3.bridge/good.bridge";
 
 /** Structural */
 // bootstrapAdapter();
-bootstrapBridge();
+// bootstrapBridge();
+bootstrapComposite();
