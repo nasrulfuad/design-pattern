@@ -6,6 +6,8 @@ import { bootstrapSingleton } from "./1.creational/5.singleton/good.singleton";
 import { bootstrapAdapter } from "./2.structural/1.adapter/good.adapter";
 import { bootstrapBridge } from "./2.structural/3.bridge/good.bridge";
 import { bootstrapComposite } from "./2.structural/4.composite/good.composite";
+import { bootstrapDecorator } from "./2.structural/5.decorator/good.decorator";
+import { bootstrapFacade } from "./2.structural/6.facade/good.facade";
 
 /** Creational */
 // bootstrapFactory();
@@ -17,4 +19,6 @@ import { bootstrapComposite } from "./2.structural/4.composite/good.composite";
 /** Structural */
 // bootstrapAdapter();
 // bootstrapBridge();
-bootstrapComposite();
+// bootstrapComposite();
+// bootstrapDecorator();
+bootstrapFacade();
