@@ -11,6 +11,7 @@ import { bootstrapFacade } from "./2.structural/6.facade/good.facade";
 import { bootstrapProxy } from "./2.structural/7.proxy/good.proxy";
 import { bootstrapChainOfResponsibility } from "./3.behavioral/1.chain-of-responsbility/good.chain-of-responsibility";
 import { bootstrapCommand } from "./3.behavioral/2.command/good.command";
+import { bootstrapMediator } from "./3.behavioral/3.mediator/good.mediator";
 
 /** Creational */
 // bootstrapFactory();
@@ -30,3 +31,4 @@ import { bootstrapCommand } from "./3.behavioral/2.command/good.command";
 /** Behavioral */
 // bootstrapChainOfResponsibility();
 // bootstrapCommand();
+bootstrapMediator();
