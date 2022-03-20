@@ -8,6 +8,7 @@ import { bootstrapBridge } from "./2.structural/3.bridge/good.bridge";
 import { bootstrapComposite } from "./2.structural/4.composite/good.composite";
 import { bootstrapDecorator } from "./2.structural/5.decorator/good.decorator";
 import { bootstrapFacade } from "./2.structural/6.facade/good.facade";
+import { bootstrapProxy } from "./2.structural/7.proxy/good.proxy";
 
 /** Creational */
 // bootstrapFactory();
@@ -21,4 +22,5 @@ import { bootstrapFacade } from "./2.structural/6.facade/good.facade";
 // bootstrapBridge();
 // bootstrapComposite();
 // bootstrapDecorator();
-bootstrapFacade();
+// bootstrapFacade();
+bootstrapProxy();
