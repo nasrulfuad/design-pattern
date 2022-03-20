@@ -14,6 +14,7 @@ import { bootstrapCommand } from "./3.behavioral/2.command/good.command";
 import { bootstrapMediator } from "./3.behavioral/3.mediator/good.mediator";
 import { bootstrapObserver } from "./3.behavioral/4.observer/good.observer";
 import { bootstrapState } from "./3.behavioral/5.state/good.state";
+import { bootstrapStrategy } from "./3.behavioral/6.strategy/good.strategy";
 
 /** Creational */
 // bootstrapFactory();
@@ -35,4 +36,5 @@ import { bootstrapState } from "./3.behavioral/5.state/good.state";
 // bootstrapCommand();
 // bootstrapMediator();
 // bootstrapObserver();
-bootstrapState();
+// bootstrapState();
+bootstrapStrategy();
