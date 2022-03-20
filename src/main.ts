@@ -13,6 +13,7 @@ import { bootstrapChainOfResponsibility } from "./3.behavioral/1.chain-of-respon
 import { bootstrapCommand } from "./3.behavioral/2.command/good.command";
 import { bootstrapMediator } from "./3.behavioral/3.mediator/good.mediator";
 import { bootstrapObserver } from "./3.behavioral/4.observer/good.observer";
+import { bootstrapState } from "./3.behavioral/5.state/good.state";
 
 /** Creational */
 // bootstrapFactory();
@@ -33,4 +34,5 @@ import { bootstrapObserver } from "./3.behavioral/4.observer/good.observer";
 // bootstrapChainOfResponsibility();
 // bootstrapCommand();
 // bootstrapMediator();
-bootstrapObserver();
+// bootstrapObserver();
+bootstrapState();
