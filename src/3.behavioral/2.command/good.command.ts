@@ -1,8 +1,6 @@
-namespace Command {
-  interface IBlogPost<T = any> {
-    execute(params: T): T;
-  }
+import { IBlogPost } from "./command.types";
 
+namespace Command {
   export class BlogUtility {
     static dateToHumanize() {}
     static titleToSlug() {}

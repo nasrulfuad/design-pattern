@@ -6,18 +6,9 @@
  *
  */
 
-namespace Mediator {
-  interface IProduct {
-    name: string;
-    sell(): void;
-  }
-  interface IMediator {
-    registerProduct(product: IProduct): void;
-    getProductRegistered(): IProduct;
-    setAvailableStatus(status: boolean): void;
-    isAvailable(): boolean;
-  }
+import { IMediator, IProduct } from "./mediator.types";
 
+namespace Mediator {
   export class Product implements IProduct {
     constructor(public name: string, private mediator: IMediator) {}
 
